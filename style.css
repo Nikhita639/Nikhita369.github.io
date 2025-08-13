@@ -5,15 +5,7 @@ body {
     color: #333;
     scroll-behavior: smooth;
 }
-.profile-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    margin: 15px auto;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-}
+
 .top-photo {
     position: absolute;
     top: 20px;
@@ -30,7 +22,15 @@ body {
 .top-photo:hover {
     transform: scale(1.05) rotate(3deg);
 }
-
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 15px auto;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
 .hero {
     position: relative;
     height: 60vh;
