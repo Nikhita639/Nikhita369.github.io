@@ -5,7 +5,6 @@ body {
     color: #333;
     scroll-behavior: smooth;
 }
-
 .top-photo {
     position: absolute;
     top: 20px;
@@ -16,7 +15,6 @@ body {
     object-fit: cover;
     border: 3px solid white;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    transition: transform 0.3s ease;
 }
 
 .top-photo:hover {
