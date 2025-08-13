@@ -5,7 +5,15 @@ body {
     color: #333;
     scroll-behavior: smooth;
 }
-
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 15px auto;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
 .hero {
     position: relative;
     height: 60vh;
