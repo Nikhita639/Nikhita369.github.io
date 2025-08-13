@@ -128,6 +128,7 @@ footer {
 @keyframes fadeIn {
     to { opacity: 1; }
 }
+
 @keyframes glowPulse {
     0% {
         box-shadow: 0 0 15px rgba(255, 255, 255, 0.6),
